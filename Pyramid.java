@@ -21,9 +21,9 @@ public class Pyramid {
      */
     public Pyramid(int _rows, int _cols) {
         // Create new integer matrix
-        matrix = new int[rows][cols];
         rows = _rows;
         cols = _cols;
+        matrix = new int[rows][cols];
 
         // Create array list for sums
         sums = new ArrayList < Integer > ();
